@@ -1,21 +1,25 @@
 {
-    "name": "1977",
-    "displayName": "1977",
-    "description": "A dark theme for VS Code inspired from Material Theme and Cobalt.",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "1977",
-                "uiTheme": "vs-dark",
-                "path": "./themes/1977-color-theme.json"
-            }
-        ]
-    }
+  "name": "1977",
+  "displayName": "1977",
+  "description": "A dark theme for VS Code inspired from Material Theme and Cobalt.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "1977",
+        "uiTheme": "vs-dark",
+        "path": "./themes/1977-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianyuen/vscode-1977"
+  }
 }
