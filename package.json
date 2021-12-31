@@ -18,6 +18,7 @@
       }
     ]
   },
+  "publisher": "BrianYuen",
   "repository": {
     "type": "git",
     "url": "https://github.com/brianyuen/vscode-1977"
