@@ -3,8 +3,19 @@
   "displayName": "1977",
   "description": "A dark theme for VS Code inspired from Material Theme and Cobalt.",
   "version": "0.0.1",
+  "galleryBanner": {
+    "color": "#0c1821",
+    "theme": "dark"
+  },
   "engines": {
-    "vscode": "^1.63.0"
+    "vscode": "^1.17.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "ico-1977.png",
+  "engines": {
+    "vscode": "^1.63.2"
   },
   "categories": [
     "Themes"

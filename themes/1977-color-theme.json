@@ -188,8 +188,8 @@
     "pickerGroup.foreground": "#c2e5ff",
     "progressBar.background": "#88ccff",
     "scrollbarSlider.activeBackground": "#c2e5ff38",
-    "scrollbarSlider.background": "#00000087",
-    "scrollbarSlider.hoverBackground": "#c2e5ff1c",
+    "scrollbarSlider.background": "#081017",
+    "scrollbarSlider.hoverBackground": "#081017",
     "settings.focusedRowBackground": "#ffffff07",
     "settings.headerForeground": "#ffffff",
     "sideBar.background": "#0c1821",
@@ -208,7 +208,7 @@
     "statusBar.noFolderBackground": "#0c1821",
     "statusBar.noFolderForeground": "#0c5b96",
     "statusBarItem.activeBackground": "#FFFFFF25",
-    "statusBarItem.hoverBackground": "#ffffff1f",
+    "statusBarItem.hoverBackground": "#000000",
     "statusBarItem.remoteBackground": "#0074cb",
     "statusBarItem.remoteForeground": "#ffffff",
     "tab.activeBackground": "#0c1821",
@@ -304,7 +304,36 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#588fb8"
+        "foreground": "#588fb8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword Operator Comparison, imports, returns and Keyword Operator Ruby",
+      "scope": [
+        "keyword.operator.comparison",
+        "keyword.control.flow.js",
+        "keyword.control.flow.ts",
+        "keyword.control.flow.tsx",
+        "keyword.control.ruby",
+        "keyword.control.module.ruby",
+        "keyword.control.class.ruby",
+        "keyword.control.def.ruby",
+        "keyword.control.loop.js",
+        "keyword.control.loop.ts",
+        "keyword.control.import.js",
+        "keyword.control.import.ts",
+        "keyword.control.import.tsx",
+        "keyword.control.from.js",
+        "keyword.control.from.ts",
+        "keyword.control.from.tsx",
+        "keyword.operator.instanceof.js",
+        "keyword.operator.expression.instanceof.ts",
+        "keyword.operator.expression.instanceof.tsx"
+      ],
+      "settings": {
+        "foreground": "#588fb8",
+        "fontStyle": "italic"
       }
     },
     {
@@ -358,6 +387,26 @@
       }
     },
     {
+      "name": "Doctypes",
+      "scope": [
+        "entity.name.tag.doctype",
+        "meta.tag.metadata.doctype.html",
+        "meta.tag.sgml.doctype"
+      ],
+      "settings": {
+        "foreground": "#e06c75",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "HTML Doctype",
+      "scope": "meta.tag.sgml.doctype.html",
+      "settings": {
+        "foreground": "#e06c75",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Tag",
       "scope": [
         "entity.name.tag",
@@ -378,7 +427,8 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#ffed88"
+        "foreground": "#ffed88",
+        "fontStyle": "italic"
       }
     },
     {
@@ -415,7 +465,8 @@
       "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
       "scope": ["keyword.other.unit"],
       "settings": {
-        "foreground": "#588fb8"
+        "foreground": "#588fb8",
+        "fontStyle": "italic"
       }
     },
     {
@@ -543,21 +594,24 @@
       "name": "Inserted",
       "scope": ["markup.inserted"],
       "settings": {
-        "foreground": "#76dea8"
+        "foreground": "#76dea8",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Deleted",
       "scope": ["markup.deleted"],
       "settings": {
-        "foreground": "#e06c75"
+        "foreground": "#e06c75",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Changed",
       "scope": ["markup.changed"],
       "settings": {
-        "foreground": "#76dea8"
+        "foreground": "#76dea8",
+        "fontStyle": "italic"
       }
     },
     {
@@ -600,6 +654,14 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "JavaScript Other Variable",
+      "scope": "variable.other.object.js",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#588fb8"
       }
     },
     {
