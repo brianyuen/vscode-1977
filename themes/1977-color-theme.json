@@ -118,7 +118,7 @@
     "inputOption.activeBackground": "#007fd466",
     "inputOption.activeBorder": "#007acc00",
     "inputOption.activeForeground": "#ffffff",
-    "list.activeSelectionBackground": "#094771",
+    "list.activeSelectionBackground": "#0947718d",
     "list.activeSelectionForeground": "#ffffff",
     "list.dropBackground": "#043c66",
     "list.focusBackground": "#043c66",
@@ -187,8 +187,8 @@
     "pickerGroup.border": "#c2e5ff62",
     "pickerGroup.foreground": "#c2e5ff",
     "progressBar.background": "#88ccff",
-    "scrollbarSlider.activeBackground": "#c2e5ff38",
-    "scrollbarSlider.background": "#081017",
+    "scrollbarSlider.activeBackground": "#88ccff",
+    "scrollbarSlider.background": "#0c1821",
     "scrollbarSlider.hoverBackground": "#081017",
     "settings.focusedRowBackground": "#ffffff07",
     "settings.headerForeground": "#ffffff",
@@ -562,6 +562,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#ffed88"
       }
     },
